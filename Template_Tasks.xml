@@ -199,11 +199,12 @@
 							-->
                             <expression>
 									{Template Windows Task Scheduled:TaskSchedulerMonitoring[TaskLastResult,{#APPTASKS}].last()} &lt;&gt; 0
-								and {Template Windows Task Scheduled:TaskSchedulerMonitoring[TaskLastResult,{#APPTASKS}].last()} &lt;&gt; 267009
+							<!--	and {Template Windows Task Scheduled:TaskSchedulerMonitoring[TaskLastResult,{#APPTASKS}].last()} &lt;&gt; 267009
 								and {Template Windows Task Scheduled:TaskSchedulerMonitoring[TaskLastResult,{#APPTASKS}].last()} &lt;&gt; 267010
 								and {Template Windows Task Scheduled:TaskSchedulerMonitoring[TaskLastResult,{#APPTASKS}].last()} &lt;&gt; 267011
 								and {Template Windows Task Scheduled:TaskSchedulerMonitoring[TaskLastResult,{#APPTASKS}].last()} &lt;&gt; 267012
 								and {Template Windows Task Scheduled:TaskSchedulerMonitoring[TaskLastResult,{#APPTASKS}].last()} &lt;&gt; 2147946720
+				    			-->
 							</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
